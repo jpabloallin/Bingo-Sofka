@@ -2,7 +2,7 @@
 
 Bingo Virtual con usuario y contraseña.
 
-La aplicación del bingo está en contrucción, por el momento está creada la creación e inicio de usuarios con autenticación,
+**La aplicación del bingo está en contrucción, por el momento está creada la creación e inicio de usuarios con autenticación,
 falta crear Api en sprintboot para las validaciones del juego como ganadores, tableros, información de fichas, etc.
 También la creación de las vistas correspondientes a estos controladores.
 
