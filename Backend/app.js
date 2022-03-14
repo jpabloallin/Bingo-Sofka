@@ -32,7 +32,7 @@ app.use("/", (req, res, next) => {
                     next();
                 } else {
                     return res.status(401).json({
-                        errorMessage: 'User unauthorized!',
+                        errorMessage: 'Usuario no autorizado!',
                         status: false
                     });
                 }
@@ -40,7 +40,7 @@ app.use("/", (req, res, next) => {
         }
     } catch (e) {
         res.status(400).json({
-            errorMessage: 'Something went wrong!',
+            errorMessage: 'Algo no funcionó bien!',
             status: false
         });
     }
